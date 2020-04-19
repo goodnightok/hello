@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>这是一个ES6的学习项目</title>
+  </head>
+  <body>
+
+
+<div class="">
+  promise的学习
+</div>
+
+<script type="text/javascript">
+let pro=new Promise(function(resolve, reject) {
+    console.log('11');
+  setTimeout(function () {
+    console.log('3333')
+  }, 1000);
+  resolve();
+}).then((value) => {
+  console.log('异步成功')
+})
+  console.log(222);
+</script>
+
+  </body>
+</html>
